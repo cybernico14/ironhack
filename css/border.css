@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body {font-family: "Roboto",sans-serif;}
+
+#box-1{
+    border: 3px red solid;
+    background-color: rgba(0,0,225,0.30);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#box-2 {
+    background: darkcyan;
+    color: white;
+    border-top: orange 4px dashed;
+    border-top-left-radius: 20px;
+}
+
+#box-3 {
+    background: blue;
+    color: white;
+    border-radius: 20px 50px;
+   
+}
+
+#box-4 {
+    background-image: url("./img/download.jpeg");
+    color: white;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

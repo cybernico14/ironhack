@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    line-height: 1.4em;
+}
+
+.container {
+    max-width: 75%;
+    margin: 30px auto;
+}
+
+.box {
+    background-color: grey;
+    border: solid 1px black;
+    padding: 2em;
+    margin: 0px 0px 30px 0px;
+}
+
+p {
+    text-align: justify;
+}
+
+#box-2 {
+    display: flex;
+    float: left;
+    width: 60%;
+    align-items: center;
+}
+
+#box-3 {
+    float: right;
+    width: 30%;
+}
+
+
+
+
+#clear {
+    clear: both;
+}
+
+.button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #90C2E7;
+    border-radius: 8px;
+    padding: 2em 1.5em;
+    border: none;
+}
+
+.button:hover {
+    background-color: #627264;
+    color: #fafafa;
+}
+
+#footer-button {
+    background-color:#4E8098;
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+#box-1 > p {
+    color: orange;
+}
+
+#box-2 ~ div {
+    background-color: red;
+    
+}
+
+
+.first-child p:first-child {
+    color: red;
+}
+
+.last-child p:last-child { 
+    color: green;
+}
+
+.nt-child p:nth-child(1) {
+    color: red;
+}
+
+
+.first-type p:first-of-type {
+    color: brown;
+}
+
+.last-type p:last-of-type {
+    color: fuchsia;
+}
+
+.last-type p:nth-of-type(3) {
+    color: green;
+}

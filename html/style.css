@@ -1,0 +1,25 @@
+
+#foodtable {
+    background-color: grey;
+    color: black;
+    width: 600px;
+    height: 600px;
+}
+
+td {
+    text-align: center;
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: white ;
+  }
+
+  th:nth-child(odd),td:nth-child(even) {
+    background-color: white;
+  }
+
+  img {
+    width: 195px;
+    height: 125px;
+}
